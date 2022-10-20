@@ -1,0 +1,173 @@
+{
+	"id": "14f1da5f-d9aa-4cb4-bf43-0567e6fa6faf",
+	"name": "SN-OCT",
+	"timestamp": "2022-10-20T17:08:33.954Z",
+	"collection_id": "23895320-3fbeb7ca-5a47-4c15-829d-4e5fba3e2d6f",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 5,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "9bf99ca4-06f4-4f68-8c61-522dbfdc90bb",
+			"name": "SNCreateRequest",
+			"url": "https://dev119672.service-now.com/api/now/table/incident",
+			"time": 567,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201 is appearing": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201 is appearing": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				567
+			],
+			"allTests": [
+				{
+					"Status code is 201 is appearing": true
+				}
+			]
+		},
+		{
+			"id": "99098524-0043-4a73-a3fa-80f978b8889b",
+			"name": "GetRequestBySysId",
+			"url": "https://dev119672.service-now.com/api/now/table/incident/14afd75387a2111066cda68d0ebb35a4",
+			"time": 498,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				498
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1b4cb541-2643-4981-be83-c252185e4a25",
+			"name": "UpdateRequest",
+			"url": "https://dev119672.service-now.com/api/now/table/incident/14afd75387a2111066cda68d0ebb35a4",
+			"time": 506,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 201 is appearing": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201 is appearing": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				506
+			],
+			"allTests": [
+				{
+					"Status code is 201 is appearing": true
+				}
+			]
+		},
+		{
+			"id": "338d3d33-ba22-418e-9690-9531b44646a6",
+			"name": "PatchRequest",
+			"url": "https://dev119672.service-now.com/api/now/table/incident/14afd75387a2111066cda68d0ebb35a4",
+			"time": 478,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 201 is appearing": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201 is appearing": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				478
+			],
+			"allTests": [
+				{
+					"Status code is 201 is appearing": true
+				}
+			]
+		},
+		{
+			"id": "f77288bf-9d89-4ae0-bbe4-5e70b3b58b3e",
+			"name": "DeleteRequest",
+			"url": "https://dev119672.service-now.com/api/now/table/incident/14afd75387a2111066cda68d0ebb35a4",
+			"time": 409,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204 is appearing": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204 is appearing": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				409
+			],
+			"allTests": [
+				{
+					"Status code is 204 is appearing": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2458,
+	"collection": {
+		"requests": [
+			{
+				"id": "9bf99ca4-06f4-4f68-8c61-522dbfdc90bb",
+				"method": "POST"
+			},
+			{
+				"id": "99098524-0043-4a73-a3fa-80f978b8889b",
+				"method": "GET"
+			},
+			{
+				"id": "1b4cb541-2643-4981-be83-c252185e4a25",
+				"method": "PUT"
+			},
+			{
+				"id": "338d3d33-ba22-418e-9690-9531b44646a6",
+				"method": "PATCH"
+			},
+			{
+				"id": "f77288bf-9d89-4ae0-bbe4-5e70b3b58b3e",
+				"method": "DELETE"
+			}
+		]
+	}
+}
